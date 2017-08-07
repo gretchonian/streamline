@@ -9,6 +9,55 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div id="flex-content-container">
+      <nav class="navbar">
+        <%= link_to 'somewhere', root_path, class: "navbar-brand" %>
+      </nav>
+       <% if notice.present? %>
+        <p class="alert alert-info"><%= notice %></p>
+      <%end%>
+      <% if alert.present? %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <%end%>
+      <%= yield %>
+      <div id="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-3">
+              <u>HOLDER</u>
+              <br/>
+              <%= link_to 'Placeholder', "#" %>
+              <br />
+              <%= link_to 'Placeholder', "#" %>
+            </div>
+            <div class="col-12 col-sm-3">
+              <u>ABOUT</u>
+              <br/>
+              <%= link_to 'Careers', "#" %>
+              <br />
+              <%= link_to 'Privacy Policy', "#" %>
+            </div>
+            <div class="col-12 col-sm-3">
+              <u>CONTACT</u>
+              <br/>
+              <a href="mailto:gretchen.zigzag@gmail.com" class="contact_link">gretchen.zigzag@gmail.com</a>
+              <br />
+              <a href=http://zigzagwebdesigns.com>zigzagwebdesigns.com</a>
+            </div>
+            <div class="col-12 col-sm-3 social">
+              <u>SOCIAL</u>
+              <br/>
+              <%= link_to 'http://github.com/gretchonian' do %>
+                <span class="fa fa-github-square fa-2x social-button"></span>
+              <% end %>
+              <%= link_to 'http://linkedin.com/in/gretchen-joyce-0325a485' do %>
+                <span class="fa fa-linkedin-square fa-2x social-button"></span>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
   </body>
 </html>

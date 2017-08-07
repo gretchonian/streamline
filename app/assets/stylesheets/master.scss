@@ -1,1 +1,31 @@
 @import "bootstrap";
+
+
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+}
+
+.navbar {
+  
+  background-color: rgba(36,32,33,0.9);
+  /*background-image: image_url('');*/
+}
+
+.navbar a {
+  color: white;
+}
+
+/*.navbar-inverse a.navbar-brand {
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: #a3a3c2;
+} 
+
+.navbar-toggler-icon {
+  padding-top: 60px;
+}*/
