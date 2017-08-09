@@ -1,5 +1,8 @@
 @import "bootstrap";
 
+/*.circle{
+  background: image_url('logo.jpg');
+}*/
 
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
@@ -7,9 +10,22 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 
+/*.logo {
+  background: image_url('logo.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-style: solid; 
+  border-color: white;
+  margin-top: 40px;
+}*/
 .navbar {
   
   background-color: rgba(36,32,33,0.9);

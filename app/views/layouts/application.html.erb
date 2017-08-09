@@ -11,7 +11,18 @@
   <body>
     <div id="flex-content-container">
       <nav class="navbar">
-        <%= link_to 'somewhere', root_path, class: "navbar-brand" %>
+      <!-- <img src="gj.jpg" class="gj"/> -->
+   <!--        <%= link_to root_path, class: 'logo' do %>
+           <div class="circle">
+            <br />
+             Chuck
+            <br />
+              Norris
+            <br />
+             Rules
+           </div>
+        <% end %> -->
+        <%= link_to 'Streamline', root_path, class: "navbar-brand" %>
       </nav>
        <% if notice.present? %>
         <p class="alert alert-info"><%= notice %></p>
@@ -22,37 +33,31 @@
       <%= yield %>
       <div id="footer">
         <div class="container">
-          <div class="row">
+          <div class="row text-center">
             <div class="col-12 col-sm-3">
-              <u>HOLDER</u>
+              <u>HOME</u>
               <br/>
-              <%= link_to 'Placeholder', "#" %>
+              <%= link_to '', "#" %>
               <br />
-              <%= link_to 'Placeholder', "#" %>
+              <%= link_to '', "#" %>
             </div>
             <div class="col-12 col-sm-3">
               <u>ABOUT</u>
               <br/>
-              <%= link_to 'Careers', "#" %>
+               <%= link_to '', "#" %>
               <br />
-              <%= link_to 'Privacy Policy', "#" %>
+               <%= link_to '', "#" %>
             </div>
             <div class="col-12 col-sm-3">
               <u>CONTACT</u>
               <br/>
-              <a href="mailto:gretchen.zigzag@gmail.com" class="contact_link">gretchen.zigzag@gmail.com</a>
+              <!-- <a href="mailto:gretchen.zigzag@gmail.com" class="contact_link">gretchen.zigzag@gmail.com</a> -->
               <br />
-              <a href=http://zigzagwebdesigns.com>zigzagwebdesigns.com</a>
+              <!-- <a href=http://zigzagwebdesigns.com>zigzagwebdesigns.com</a> -->
             </div>
             <div class="col-12 col-sm-3 social">
               <u>SOCIAL</u>
-              <br/>
-              <%= link_to 'http://github.com/gretchonian' do %>
-                <span class="fa fa-github-square fa-2x social-button"></span>
-              <% end %>
-              <%= link_to 'http://linkedin.com/in/gretchen-joyce-0325a485' do %>
-                <span class="fa fa-linkedin-square fa-2x social-button"></span>
-              <% end %>
+              
             </div>
           </div>
         </div>
