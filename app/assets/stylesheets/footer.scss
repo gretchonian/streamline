@@ -9,18 +9,19 @@ html, body {
 }
 
 #footer {
-  padding: 10px 0px;
+  padding: 20px 0px;
   position: relative;
   width: 100%;
   min-height: 100px;
   background-color: rgba(36,32,33,0.9);
   color: white;
-  font-weight: 100;
   font-family: 'Arvo', serif;
+  font-size: 20px;
 }
 
-#footer a {
-  color: white;
+#footer li, a {
+  font-size: 15px;
+  list-style: none;
 }
 
 #flex-content-container {
