@@ -1,47 +1,103 @@
 @import "bootstrap";
 
-/*.circle{
-  background: image_url('logo.jpg');
-}*/
+.black-box { 
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  padding: 120px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  font-family: 'Oxygen Mono', monospace;
+  border-radius: 1%;
+}
 
+.black-box h1 {
+  font-weight: 100;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+}
+
+.black-box h4 {
+  font-weight: 200;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
+  }
+
+.feature {
+
+  padding-left: 5%;
+  padding-right: 5%;
+  /*color: white;*/
+  /*color: #a3a3c2;*/
+  width: auto;
+
+}
+
+/*.green-box { 
+  background: rgba(105, 255, 255, 0.4);
+  color: black;
+  padding: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  font-family: 'Oxygen Mono', monospace;
+  border-radius: 1%;
+}*/
 .hero {
   background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 600px;
+  /*height: 800px;*/
 }
 
-/*.logo {
-  background: image_url('logo.jpg');
+.logo {
+  background: image_url('logo1.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
-  border-style: solid; 
-  border-color: white;
-  margin-top: 40px;
-}*/
+}
 .navbar {
-  
   background-color: rgba(36,32,33,0.9);
   /*background-image: image_url('');*/
 }
 
 .navbar a {
   color: white;
+  font-family: 'Arvo', serif;
+  font-size: 50px;
+  /*text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;*/
+}
+.services {
+  padding-left: 5%;
+  padding-right: 5%;
+  /*color: white;*/
+  /*color: #a3a3c2;*/
+  width: auto;
+
 }
 
-/*.navbar-inverse a.navbar-brand {
+.white-box { 
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0px 1px 3px #2a2a2a;
+  font-family: 'Oxygen Mono', monospace;
+  border-radius: 1%;
+  width: auto;
+}
+
+
+/*.navbar a.navbar-brand {
   font-size: 40px;
   letter-spacing: 2px;
   color: #a3a3c2;
-} 
+} */
 
-.navbar-toggler-icon {
+/*.navbar-toggler-icon {
   padding-top: 60px;
 }*/

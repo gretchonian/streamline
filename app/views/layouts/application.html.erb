@@ -6,25 +6,24 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen+Mono');
+    </style>
   </head>
 
   <body>
     <div id="flex-content-container">
       <nav class="navbar">
-      <!-- <img src="gj.jpg" class="gj"/> -->
-   <!--        <%= link_to root_path, class: 'logo' do %>
-           <div class="circle">
-            <br />
-             Chuck
-            <br />
-              Norris
-            <br />
-             Rules
-           </div>
-        <% end %> -->
-        <%= link_to 'Streamline', root_path, class: "navbar-brand" %>
+        <div class="row">
+          <div class="col-sm-1 col-12">
+            <%= image_tag "logo1.jpg",  class: 'logo'%>
+          </div>
+          <div class="col-sm-9 col-12">
+            <%= link_to 'Streamline', root_path, class: "navbar-brand" %>
+          </div>
+        </div>
       </nav>
-       <% if notice.present? %>
+      <% if notice.present? %>
         <p class="alert alert-info"><%= notice %></p>
       <%end%>
       <% if alert.present? %>
