@@ -8,7 +8,7 @@ html, body {
   height: 100%;
 }
 
-#footer {
+.footer {
   padding: 20px 0px;
   position: relative;
   width: 100%;
@@ -25,11 +25,11 @@ html, body {
   background-size: cover;*/
 }
 
-#footer li, a {
+.footer li, a {
   font-size: 15px;
   list-style: none;
 }
 
 #flex-content-container {
-  flex: 1;
+  /*flex: 1;*/
 }

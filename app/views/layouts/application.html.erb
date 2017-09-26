@@ -23,6 +23,7 @@
           </div>
         </div>
       </nav>
+      <div class="container-fluid">
       <% if notice.present? %>
         <p class="alert alert-info"><%= notice %></p>
       <%end%>
@@ -30,31 +31,31 @@
         <p class="alert alert-danger"><%= alert %></p>
       <%end%>
       <%= yield %>
-    </div>
-    <div id="footer">
-      <div class="container-fluid">
-        <div class="row">
-        <div class="col-md text-center">
-          <u>CONTACT</u>
-          <li>Make an appointment and visit soon!</li>
-          <li><a>971.235.8721</a></li>
-          <li>email?</li>
-        </div>
-        <br/>
-        <div class="col-md text-center">
-          <u>HOURS</u>
-          <li>Monday - Friday: 10am - 4pm</li>
-          <li>By Appointment</li>
-          <li>Saturday & Sunday: Closed</li>
-        </div>
-        <div class="col-md text-center">
-          <u>PLACEHOLDER</u>
-          <li>Example</li>
-          <li>Example</li>
+      </div>
+
+      <div class="footer">
+        <div class="container-fluid">
+          <div class="row">
+          <div class="col-md text-center">
+            <u>CONTACT</u>
+            <li>Make an appointment and visit soon!</li>
+            <li><a>971.235.8721</a></li>
+            <li>email?</li>
+          </div>
+          <br/>
+          <div class="col-md text-center">
+            <u>HOURS</u>
+            <li>Monday - Friday: 10am - 4pm</li>
+            <li>By Appointment</li>
+            <li>Saturday & Sunday: Closed</li>
+          </div>
+          <div class="col-md text-center">
+            <u>PLACEHOLDER</u>
+            <li>Example</li>
+            <li>Example</li>
+          </div>
         </div>
       </div>
-      </div>
     </div>
-    
   </body>
 </html>
