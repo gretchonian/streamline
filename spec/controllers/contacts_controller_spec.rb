@@ -14,7 +14,6 @@ RSpec.describe ContactsController, type: :controller do
       post :create, params: { contact: {name: "Gina Tina", email: "dummyEmail@gamil.com", message: "I would like to talk about accounting"} }
     
       contact = Contact.last
-      
       expect(contact.name).to eq("Gina Tina")
     end
   end

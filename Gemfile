@@ -62,3 +62,6 @@ end
 
 #simple_form for Rails
 gem 'simple_form'
+
+#ENV secure storage
+gem "figaro"

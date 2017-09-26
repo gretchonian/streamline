@@ -21,7 +21,7 @@
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
   }
 
-.btn {
+.btn-special {
   background: image_url('logo1.jpg');
     -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -60,6 +60,9 @@
   height: 80px;
   width: 80px;
   border-radius: 50%;
+}
+.services {
+  padding-bottom: 60px;
 }
 .navbar {
   background-color: rgba(36,32,33,0.9);
