@@ -6,8 +6,7 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><style>
       @import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen+Mono');
     </style>
   </head>
@@ -33,28 +32,29 @@
       <%= yield %>
     </div>
     <div id="footer">
-    <div class="container">
-      <div class="row">
-      <div class="col-md text-center">
-        <u>CONTACT</u>
-        <li>Make an appointment and visit soon!</li>
-        <li><a>971.235.8721</a></li>
-        <li>email?</li>
+      <div class="container-fluid">
+        <div class="row">
+        <div class="col-md text-center">
+          <u>CONTACT</u>
+          <li>Make an appointment and visit soon!</li>
+          <li><a>971.235.8721</a></li>
+          <li>email?</li>
+        </div>
+        <br/>
+        <div class="col-md text-center">
+          <u>HOURS</u>
+          <li>Monday - Friday: 10am - 4pm</li>
+          <li>By Appointment</li>
+          <li>Saturday & Sunday: Closed</li>
+        </div>
+        <div class="col-md text-center">
+          <u>PLACEHOLDER</u>
+          <li>Example</li>
+          <li>Example</li>
+        </div>
       </div>
-      <br/>
-      <div class="col-md text-center">
-        <u>HOURS</u>
-        <li>Monday - Friday: 10am - 4pm</li>
-        <li>By Appointment</li>
-        <li>Saturday & Sunday: Closed</li>
-      </div>
-      <div class="col-md text-center">
-        <u>PLACEHOLDER</u>
-        <li>Example</li>
-        <li>Example</li>
       </div>
     </div>
-    </div>
-    </div>
+    
   </body>
 </html>
