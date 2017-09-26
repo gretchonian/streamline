@@ -7,9 +7,8 @@ class ContactsController < ApplicationController
     @contact = Contact.create(contact_params)
     if @contact.valid? 
       redirect_to root_path
-      # NotificationMailer.contact_submitted(@contact).deliver
     else
-      flash[:alert] = "Enter valid information"
+      flash[:alert] = "Please enter valid information"
       redirect_to new_contact_path
     end
   end

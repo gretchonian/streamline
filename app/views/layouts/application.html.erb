@@ -15,10 +15,10 @@
     <div id="flex-content-container">
       <nav class="navbar">
         <div class="row">
-          <div class="col-sm-1 col-12">
+          <div class="col-sm-1">
             <%= image_tag "logo1.jpg",  class: 'logo'%>
           </div>
-          <div class="col-sm-9 col-12">
+          <div class="col-sm-9">
             <%= link_to 'Streamline Accounting', root_path, class: "navbar-brand" %>
           </div>
         </div>
@@ -31,19 +31,27 @@
       <%end%>
       <%= yield %>
       <div id="footer">
-        <div class="text-center">
-          <div class="col-12">
+        <div class="container">
+          <div class="row">
+          <div class="col-sm-4 text-center">
             <u>CONTACT</u>
             <li>Make an appointment and visit soon!</li>
             <li><a>971.235.8721</a></li>
+            <li>email?</li>
           </div>
           <br/>
-          <div class="col-12">
+          <div class="col-sm-4 text-center">
             <u>HOURS</u>
             <li>Monday - Friday: 10am - 4pm</li>
             <li>By Appointment</li>
             <li>Saturday & Sunday: Closed</li>
           </div>
+          <div class="col-sm-4 text-center">
+            <u>PLACEHOLDER</u>
+            <li>Example</li>
+            <li>Example</li>
+          </div>
+        </div>
         </div>
       </div>
     

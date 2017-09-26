@@ -3,7 +3,7 @@
 .black-box { 
   background: rgba(0, 0, 0, 0.4);
   color: white;
-  padding: 120px;
+  padding: 80px;
   margin-top: 30px;
   margin-bottom: 30px;
   box-shadow: 0px 1px 3px #2a2a2a;
@@ -16,10 +16,10 @@
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
-.black-box h4 {
+.black-box h4,label {
   font-weight: 200;
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-  }
+}
 
 .btn-special {
   background: image_url('logo1.jpg');
@@ -41,9 +41,12 @@
   font-family: 'Oxygen Mono', monospace;
   border-radius: 1%;
 }*/
+.clr {
+  clear: both;
+}
 
 .hero {
-  background: image_url('hero.jpg') no-repeat center center fixed;
+  background: image_url('calculator-2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -61,9 +64,11 @@
   width: 80px;
   border-radius: 50%;
 }
+
 .services {
   padding-bottom: 60px;
 }
+
 .navbar {
   background-color: rgba(36,32,33,0.9);
   /*background-image: image_url('');*/
@@ -76,8 +81,8 @@
   /*text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;*/
 }
 .services {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
   width: auto;
 }
 

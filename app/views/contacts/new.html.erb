@@ -1,10 +1,10 @@
 <br/>
-<div class="black-box col-10 offset-1">
+<div class="black-box col-sm-10 offset-1">
   <h1>Contact Us Here!</h1>
   <%= simple_form_for @contact, url: contacts_path do |f| %>
-    <%= f.input :name %>
-    <%= f.input :email %>
-    <%= f.input :message %>
+    <%= f.input :name, placeholder: "Jane Smith"%>
+    <%= f.input :email, placeholder: "jane@example.com"%>
+    <%= f.input :message, placeholder: "I would like to talk to you about my business finances."%>
     <br />
     <%= f.submit "Send", class: 'btn btn-primary' %>
     <br/>
