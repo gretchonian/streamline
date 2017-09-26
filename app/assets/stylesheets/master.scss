@@ -46,12 +46,21 @@
 }
 
 .hero {
-  background: image_url('calculator-2.jpg') no-repeat center center fixed;
+  background: image_url('logo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*height: 800px;*/
+  height: 800px;
+}
+
+.hero-2 {
+  background: image_url('calculator-1.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 800px;
 }
 
 .logo {
