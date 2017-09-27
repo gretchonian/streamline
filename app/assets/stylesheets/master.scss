@@ -11,13 +11,8 @@
   border-radius: 1%;
 }
 
-.black-box h1 {
-  font-weight: 100;
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-}
-
-.black-box h4,label {
-  font-weight: 200;
+.black-box h1, h4, label {
+  /*font-weight: 200;*/
   text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
@@ -45,6 +40,12 @@
   clear: both;
 }
 
+.flex-content-container {
+  flex-wrap: wrap;
+}
+
+
+
 .hero {
   background: image_url('logo.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -52,6 +53,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 800px;
+  width: auto;
 }
 
 .hero-2 {
@@ -61,6 +63,7 @@
   -o-background-size: cover;
   background-size: cover;
   height: 800px;
+  width: auto;
 }
 
 .logo {
@@ -90,8 +93,8 @@
   /*text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;*/
 }
 .services {
-  padding-left: 10%;
-  padding-right: 10%;
+  /*padding-left: 10%;*/
+  /*padding-right: 10%;*/
   width: auto;
 }
 

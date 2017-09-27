@@ -12,16 +12,21 @@
   </head>
 
   <body>
-    <div id="flex-content-container">
+    <div id="flex-container">
       <nav class="navbar">
+
+        <!-- <div class="container-fluid"> -->
         <div class="row">
-          <div class="col-sm-1">
+          <div class="col-md-1">
             <%= image_tag "logo1.jpg",  class: 'logo'%>
           </div>
-          <div class="col-sm-9">
-            <%= link_to 'Streamline Accounting', root_path, class: "navbar-brand" %>
+          <div class="clearfix hidden-sm-down col-md-10">
+            <%= link_to 'Streamline Accounting, LLC', root_path, class: "navbar-brand" %>
           </div>
+          <!-- <div class="clearfix hidden-lg-up"></div> -->
+          <!-- <div class="clr"> -->
         </div>
+        <!-- </div> -->
       </nav>
       <div class="container-fluid">
       <% if notice.present? %>
