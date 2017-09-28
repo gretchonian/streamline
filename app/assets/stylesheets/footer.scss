@@ -25,11 +25,12 @@ html, body {
   background-size: cover;*/
 }
 
-.footer li, a {
+.footer li, a, i, a.phone {
   font-size: 15px;
   list-style: none;
+  color: white;
 }
 
-#flex-content-container {
-  /*flex: 1;*/
-}
+/*#flex-content-container {
+  flex: 1;
+}*/

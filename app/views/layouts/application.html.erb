@@ -7,7 +7,7 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><style>
-      @import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen+Mono');
+      @import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen+Mono|Philosopher|Sacramento');
     </style>
   </head>
 
@@ -18,10 +18,16 @@
         <!-- <div class="container-fluid"> -->
         <div class="row">
           <div class="col-md-1">
+            <%= link_to root_path do%>
             <%= image_tag "logo1.jpg",  class: 'logo'%>
+            <% end %>
           </div>
+          <div class="clr">
           <div class="clearfix hidden-sm-down col-md-10">
             <%= link_to 'Streamline Accounting, LLC', root_path, class: "navbar-brand" %>
+          </div>
+          <div class="clearfix hidden-md-up col-md-10">
+            <h2>Streamline Accounting, LLC</h2>
           </div>
           <!-- <div class="clearfix hidden-lg-up"></div> -->
           <!-- <div class="clr"> -->
@@ -44,8 +50,10 @@
           <div class="col-md text-center">
             <u>CONTACT</u>
             <li>Make an appointment and visit soon!</li>
-            <li><a>971.235.8721</a></li>
-            <li>email?</li>
+             <%= link_to "", class: 'phone' do%>
+              <i class="fa fa-phone"></i>
+               &nbsp;971.235.8721
+            <% end %>
           </div>
           <br/>
           <div class="col-md text-center">

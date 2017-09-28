@@ -65,3 +65,6 @@ gem 'simple_form'
 
 #ENV secure storage
 gem "figaro"
+
+# Add symbols thru awesome fonts
+gem "font-awesome-rails"
