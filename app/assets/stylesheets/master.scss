@@ -3,7 +3,6 @@
 
 .black-box { 
   background: rgba(0, 0, 0, 0.4);
-  /*color: rgba(255, 255, 153, 1);*/
   color: white;
   padding: 80px;
   margin-top: 30px;
@@ -11,21 +10,19 @@
   box-shadow: 0px 1px 3px #2a2a2a;
   font-family: 'Philosopher', sans-serif;
   border-radius: 1%;
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
 .black-box h1 {
   font-size: 80px;
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
 .black-box h2 {
   font-size: 60px;
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
 .black-box h4 {
   font-size: 40px;
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
 
 .black-box label {
@@ -34,38 +31,13 @@
 }
 
 .btn-special {
-  background-color: rgba(0, 180, 190, 1);
+  background-color: rgb(0, 180, 190);
   color: black;
 }
 
-/*.btn-special {
-  background: image_url('logo1.jpg');
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  height: 40px;
-  width: 40px;
-}*/
-
-/*.green-box { 
-  background: rgba(105, 255, 255, 0.4);
+.modal-body .email:hover {
   color: black;
-  padding: 40px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0px 1px 3px #2a2a2a;
-  font-family: 'Oxygen Mono', monospace;
-  border-radius: 1%;
-}*/
-/*.clr {
-  clear: both;
-}*/
-
-/*.flex-content-container {
-  flex-wrap: wrap;
-}*/
-
+}
 
 .hero {
   background: image_url('logo.jpg') no-repeat center center fixed;
@@ -83,7 +55,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  /*min-height: 400px;*/
   width: auto;
 }
 
@@ -102,33 +73,19 @@
   padding-bottom: 60px;
   padding-top: 60px;
   justify-content: center;
+  width: auto;
 }
 
 .navbar {
-  /*background-color: rgba(36,32,33,0.9);*/
   background-image: image_url('wild_flowers.png');
-}
-
-.navbar a {
-  color: rgba(0, 180, 190, 1);
-  /*color: white;*/
   font-family: 'Arvo', serif;
-  font-size: 50px;
+  color: rgb(0, 180, 190);
   text-shadow: rgba(255, 255, 255, 0.7) 2px 2px;
 }
 
-.navbar h2 {
-  color: white;
-  font-family: 'Arvo', serif;
-  /*font-size: 50px;*/
-  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
-}
-
-
-.services {
-  /*padding-left: 10%;*/
-  /*padding-right: 10%;*/
-  width: auto;
+.navbar a {
+  font-size: 50px;
+  color: rgb(0, 180, 190);
 }
 
 .white-box { 
@@ -140,9 +97,6 @@
   font-family: 'Philosopher', sans-serif;
   border-radius: 1%;
   width: auto;
-}
-
-.white-box li, a.btn {
   list-style: none;
   font-size: 20px;
 }

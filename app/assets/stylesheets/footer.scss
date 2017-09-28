@@ -12,35 +12,20 @@ html, body {
   padding: 20px 0px;
   position: relative;
   width: 100%;
-  /*min-height: 100px;*/
-  /*color: rgba(0, 180, 190, 1);*/
   max-height: auto;
   background-image: image_url('grey_wash_wall.png');
-  /*background-color: rgba(36,32,33,0.9);*/
   color: white;
   font-family: 'Arvo', serif;
   font-size: 20px;
-  /*background: image_url('cclock.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
 }
 
 .footer li, a, i, a.phone, a.email {
   font-size: 15px;
   list-style: none;
   color: white;
-
 }
 
 .phone:hover, .email:hover {
   text-decoration: none;
   color: rgba(0, 180, 190, 1);
-  /*color: white;*/
 }
-
-
-/*#flex-content-container {
-  flex: 1;
-}*/
