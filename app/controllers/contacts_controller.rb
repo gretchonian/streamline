@@ -9,7 +9,7 @@ class ContactsController < ApplicationController
       redirect_to root_path
     else
       flash[:alert] = "Please enter valid information"
-      redirect_to new_contact_path
+      redirect_to contacts_path
     end
   end
 

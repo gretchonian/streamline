@@ -3,6 +3,7 @@
 
 .black-box { 
   background: rgba(0, 0, 0, 0.4);
+  /*color: rgba(255, 255, 153, 1);*/
   color: white;
   padding: 80px;
   margin-top: 30px;
@@ -30,6 +31,11 @@
 .black-box label {
   font-size: 20px;
   text-shadow: rgba(0, 0, 0, 0.95) 1px 1px;
+}
+
+.btn-special {
+  background-color: rgba(0, 180, 190, 1);
+  color: black;
 }
 
 /*.btn-special {
@@ -99,23 +105,26 @@
 }
 
 .navbar {
-  background-color: rgba(36,32,33,0.9);
-  /*background-image: image_url('');*/
+  /*background-color: rgba(36,32,33,0.9);*/
+  background-image: image_url('wild_flowers.png');
 }
 
 .navbar a {
-  color: white;
+  color: rgba(0, 180, 190, 1);
+  /*color: white;*/
   font-family: 'Arvo', serif;
   font-size: 50px;
-  /*text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;*/
+  text-shadow: rgba(255, 255, 255, 0.7) 2px 2px;
 }
 
 .navbar h2 {
   color: white;
   font-family: 'Arvo', serif;
   /*font-size: 50px;*/
-  /*text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;*/
+  text-shadow: rgba(0, 0, 0, 0.95) 2px 2px;
 }
+
+
 .services {
   /*padding-left: 10%;*/
   /*padding-right: 10%;*/

@@ -13,8 +13,10 @@ html, body {
   position: relative;
   width: 100%;
   /*min-height: 100px;*/
+  /*color: rgba(0, 180, 190, 1);*/
   max-height: auto;
-  background-color: rgba(36,32,33,0.9);
+  background-image: image_url('grey_wash_wall.png');
+  /*background-color: rgba(36,32,33,0.9);*/
   color: white;
   font-family: 'Arvo', serif;
   font-size: 20px;
@@ -25,11 +27,19 @@ html, body {
   background-size: cover;*/
 }
 
-.footer li, a, i, a.phone {
+.footer li, a, i, a.phone, a.email {
   font-size: 15px;
   list-style: none;
   color: white;
+
 }
+
+.phone:hover, .email:hover {
+  text-decoration: none;
+  color: rgba(0, 180, 190, 1);
+  /*color: white;*/
+}
+
 
 /*#flex-content-container {
   flex: 1;
