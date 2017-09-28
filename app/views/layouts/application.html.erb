@@ -14,8 +14,6 @@
   <body>
     <div id="flex-container">
       <nav class="navbar">
-
-        <!-- <div class="container-fluid"> -->
         <div class="row">
           <div class="col-md-1">
             <%= link_to root_path do%>
@@ -29,10 +27,7 @@
           <div class="clearfix hidden-md-up col-12">
             <h2>Streamline Accounting, LLC</h2>
           </div>
-          <!-- <div class="clearfix hidden-lg-up"></div> -->
-          <!-- <div class="clr"> -->
         </div>
-        <!-- </div> -->
       </nav>
       <div class="container-fluid">
       <% if notice.present? %>
@@ -60,15 +55,10 @@
           <div class="col-md text-center">
             <u>HOURS</u>
             <li>Monday - Friday: 10am - 4pm</li>
-            <%= link_to "", class: 'email' do%>
-              <i class="fa fa-envelope"></i>&nbsp;&nbsp;By Appointment
-            <% end %>
+              <div class='email' data-toggle="modal" data-target="#myContactModal">
+                <i class="fa fa-envelope"></i>&nbsp;&nbsp;By Appointment
+              </div>
             <li>Saturday & Sunday: Closed</li>
-          </div>
-          <div class="col-md text-center">
-            <u>PLACEHOLDER</u>
-            <li>Example</li>
-            <li>Example</li>
           </div>
         </div>
       </div>
