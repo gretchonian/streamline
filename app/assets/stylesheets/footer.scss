@@ -19,13 +19,18 @@ html, body {
   font-size: 20px;
 }
 
-.footer li, a, i, a.phone, .email {
+.footer li, a, i, a.phone {
   font-size: 15px;
   list-style: none;
   color: white;
 }
 
-.phone:hover, .email:hover {
+.footer .email {
+  font-size: 15px;
+}
+ 
+
+.footer .email:hover, .phone:hover{
   text-decoration: none;
-  color: rgba(0, 180, 190, 1);
+  color: rgb(0, 180, 190);
 }
