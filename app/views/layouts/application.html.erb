@@ -6,7 +6,8 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" /><style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <style>
       @import url('https://fonts.googleapis.com/css?family=Arvo|Oxygen+Mono|Philosopher|Sacramento');
     </style>
   </head>
@@ -30,35 +31,41 @@
         </div>
       </nav>
       <div class="container-fluid">
-      <% if notice.present? %>
-        <p class="alert alert-info"><%= notice %></p>
-      <%end%>
-      <% if alert.present? %>
-        <p class="alert alert-danger"><%= alert %></p>
-      <%end%>
-      <%= yield %>
+        <% if notice.present? %>
+          <p class="alert alert-info"><%= notice %></p>
+        <%end%>
+        <% if alert.present? %>
+          <p class="alert alert-danger"><%= alert %></p>
+        <%end%>
+        <%= yield %>
       </div>
 
       <div class="footer">
         <div class="container-fluid">
           <div class="row">
-          <div class="col-md text-center">
-            <u>CONTACT</u>
-            <li>Make an appointment and visit soon!</li>
-             <%= link_to "tel:+1-541-630-4720", class: 'phone' do%>
-              <i class="fa fa-phone"></i>
-              &nbsp;541-630-4720
-               <!-- &nbsp;971.235.8721 -->
-            <% end %>
-          </div>
-          <br/>
-          <div class="col-md text-center">
-            <u>HOURS</u>
-            <li>Monday - Friday: 10am - 4pm</li>
-              <div class='email' data-toggle="modal" data-target="#myContactModal">
-                <i class="fa fa-envelope"></i>&nbsp;&nbsp;By Appointment
-              </div>
-            <li>Saturday & Sunday: Closed</li>
+            <div class="col-md text-center">
+              <u>CONTACT</u>
+              <li>Make an appointment and visit soon!</li>
+               <%= link_to "tel:+1-541-630-4720", class: 'phone' do%>
+                <i class="fa fa-phone"></i>
+                &nbsp;541-630-4720
+                 <!-- &nbsp;971.235.8721 -->
+              <% end %>
+            </div>
+            <br/>
+            <div class="col-md text-center">
+              <u>HOURS</u>
+              <li>Monday - Friday: 10am - 4pm</li>
+                <div class='email' data-toggle="modal" data-target="#myContactModal">
+                  <i class="fa fa-envelope"></i>&nbsp;&nbsp;By Appointment
+                </div>
+              <li>Saturday & Sunday: Closed</li>
+            </div>
+            <div class="credit col-12 text-center">
+              <%=link_to 'http://zigzagwebdesigns.com' do %>
+              website: zigzagwebdesigns.com
+              <%end%>
+            </div>
           </div>
         </div>
       </div>

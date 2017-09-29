@@ -35,13 +35,10 @@
   color: black;
 }
 
-/*.modal-body .email:hover {
-  color: black;
-}*/
-
-/*.modal-body {
-  color: black;
-}*/
+.credit a{
+  color: white;
+  font-size: 8px;
+}
 
 .hero {
   background: image_url('logo.jpg') no-repeat center center fixed;
@@ -49,8 +46,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 800px;
-  width: auto;
+  min-height: 800px; 
 }
 
 .hero-2 {
@@ -59,7 +55,6 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  width: auto;
 }
 
 .logo {
